@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute ,stricky, fixed,</title>
+    <style>
+     /* h4{ */
+
+     
+        /* position:absolute; */
+        /* left:100px; */
+        /* top:150px; */
+     
+     /* div.sticky{ */
+
+        /* position: sticky; */
+
+        /* top: 0; */
+        /* padding: 5px; */
+        /* background-color: rgb(89, 141, 82); */
+        /* border: 1px solid; */
+     /* } */
+     /* div.fixed{ */
+        /* position: fixed; */
+        /* bottom: 0; */
+        /* right: 0; */
+
+      /* border: 1px solid rgb(20, 29, 21);   */
+     /* } */
+     div.relative{
+        position: relative;
+        left: 50px;
+        
+        border: 3px solid rgb(29, 42, 218);
+     }
+    
+    </style>
+    
+</head>
+<body>
+    <h1> The Positioning property </h1>
+
+    <h4> this is a heading absolute Positioning property </h4>
+
+    <p>With absolute Positioning, an element can be placed anywhere on the page.
+        The heading belowis placed 100px from to the left of the page  and 150px from
+         the to pof the page.
+    </p>
+ 
+ 
+ 
+    <hr>
+
+<p> try to <b>scroll</b> inside this frame to understnd how stricky positioning works.</p>
+<p>Note: IE/Edge 15 and earlier versions do not support stricky position</p>
+<div class="sticky"> I am sticky</div>
+<div style="padding-bottom: 2000px;">
+<p> In this example, the sticky element sticks to the top of the page (top:0), when you reac its scroll position.</p>
+<p>Some text to enabling scrolling -- Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae laudantium modi praesentium, tempora iusto officia quae pariatur nobis deserunt laboriosam error voluptate dignissimos! Ratione expedita natus reiciendis atque vel sint recusandae sapiente labore reprehenderit ad! Quos rem, dolores quibusdam perspiciatis molestiae veniam perferendis vero repellendus, sunt in architecto delectus.</p>
+<p> Some text to enabling scrolling... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur culpa voluptatibus distinctio alias labore neque rem saepe aliquid illum officiis animi nisi blanditiis, cum quasi maxime in ea reiciendis quibusdam possimus! Cumque modi consequatur quo necessitatibus consectetur quisquam quidem qui.</p>
+</div>
+ <hr>
+<h1> position: fixed;</h1>
+<p>
+    An element with position:fixed;is positioned relative to the viewport, which means it always
+    stays in the same place even if the page is scrolled:
+</p>
+<div class="fixed"> This div element has position:fixed;</div>
+
+<hr>
+<h2>position: relative;</h2>
+<p> An element with position:  relative; is positioned relative to its normal position:</p>
+<div class="relative"> This div element has position: relative;</div>
+
+    
+</body>
+</html>
