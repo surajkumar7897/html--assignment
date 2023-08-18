@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .a{
+            display: contents;
+            border: 1px; solid red;
+            background-color: lightgray;
+            padding: 10px;
+            width: 200px;
+        }
+        .b{
+            display: inline;
+            color: blue;
+        }
+        .c{
+            display: inherit;
+        }
+        .d{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .e{
+            display: none;
+        }
+        .f{
+            display: inline-flex;
+        }
+        .g{
+            display: run-in;
+        }
+    </style>
+</head>
+<body>
+    <h1> The display Property</h1>
+    <h2> display: contents:</h2>
+    <div class="a"> This display propery specifies the display behavior (the type of rendering box) of an element.</p>
+    <p class="b"> the display is the meet important CSS property for controlling layout.<p>
+    <p class="c"> The display property specifies if/how an element is displayed.</p>
+    <p class="d">  Every element has a defult display value However, your can override it.</p>
+     <p claass="e">Changing an inline element to a block element, or vice versa, can be usefulfor making the page look a specific way, and still follow the webstandards. </p>
+     <p class="f">Setting the display property of an element only changes how theelement is displayed, NOT what kind of element it is. So, an inline elementwith display: block; is not allowed to have other block elements inside it.</p>
+     <p  class="g">Hiding an element can be done by setting the display propertyto none. The element will be hidden, and the page will be displayed as ifthe element is not there.</p>
+</body>
+</html>
